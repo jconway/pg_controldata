@@ -1,0 +1,10 @@
+Build like any other contrib. I.e. either:
+ - untar in contrib folder of postgres source tree and do "make", "make install"
+or
+ - untar somewhere and do "USE_PGXS=1 make", "USE_PGXS=1 make install"
+
+Currently only supports PostgreSQL 9.0 alpha.
+
+Joe Conway
+mail@joeconway.com
+
